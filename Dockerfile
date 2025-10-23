@@ -27,7 +27,6 @@ COPY recommendation_objects/ recommendation_objects/
 COPY agents/ agents/
 COPY agent_controller.py .
 COPY main.py .
-COPY .env .env
 
 # Create non-root user for security
 RUN useradd -m -u 1000 appuser && \
