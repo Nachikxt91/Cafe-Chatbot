@@ -1,0 +1,185 @@
+# ==========================================
+# Python Specific
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+cafe/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.json
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# Testing & Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# ==========================================
+# Logs & Databases
+# ==========================================
+
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# OS Specific
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==========================================
+# Docker
+# ==========================================
+
+.dockerignore
+docker-compose.override.yml
+
+# ==========================================
+# Project Specific
+# ==========================================
+
+# Recommendation objects (if you don't want to commit them)
+# recommendation_objects/
+
+# Test files
+test_input.json
+test_output.json
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# ==========================================
+# MyPy
+# ==========================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ==========================================
+# Pyre type checker
+# ==========================================
+
+.pyre/
+
+# ==========================================
+# pytype static type analyzer
+# ==========================================
+
+.pytype/
+
+# ==========================================
+# FastAPI / Uvicorn
+# ==========================================
+
+*.pid

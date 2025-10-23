@@ -1,0 +1,40 @@
+# ============================
+# FastAPI and Server
+# ============================
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# ============================
+# Core Utilities
+# ============================
+pandas==2.0.3
+python-dotenv==1.0.1
+
+# ============================
+# PyTorch (CPU-only build)
+# ============================
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# ============================
+# Embedding Models
+# ============================
+sentence-transformers>=2.7.0
+
+# ============================
+# LangChain and AI Tools
+# ============================
+langchain-groq>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.38
+langchain-huggingface>=0.0.1
+groq>=0.4.0
+
+# ============================
+# Vector Database
+# ============================
+pinecone-client>=3.0.0
