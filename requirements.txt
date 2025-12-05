@@ -26,13 +26,13 @@ torchaudio>=2.0.0
 sentence-transformers>=2.7.0
 
 # ============================
-# LangChain and AI Tools (Compatible versions)
+# LangChain 0.3.x (Python 3.12 compatible)
 # ============================
-langchain-core==0.2.38
-langchain==0.2.16
-langchain-community==0.2.16
-langchain-groq==0.1.9
-langchain-huggingface==0.1.0
+langchain-core==0.3.15
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-groq==0.2.1
+langchain-huggingface==0.1.2
 langsmith==0.1.147
 groq>=0.4.0
 
