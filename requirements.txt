@@ -3,7 +3,7 @@
 # ============================
 fastapi==0.115.0
 uvicorn[standard]==0.24.0
-pydantic==2.7.4
+pydantic==2.9.0
 python-multipart==0.0.6
 
 # ============================
@@ -26,14 +26,14 @@ torchaudio>=2.0.0
 sentence-transformers>=2.7.0
 
 # ============================
-# LangChain and AI Tools (Compatible with Python 3.12.7)
+# LangChain and AI Tools (Compatible versions)
 # ============================
-langchain-core==0.2.23
+langchain-core==0.2.38
 langchain==0.2.16
-langchain-community==0.2.10
-langchain-groq==0.1.6
-langchain-huggingface==0.0.3
-langsmith>=0.1.85
+langchain-community==0.2.16
+langchain-groq==0.1.9
+langchain-huggingface==0.1.0
+langsmith==0.1.147
 groq>=0.4.0
 
 # ============================
