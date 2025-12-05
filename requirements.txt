@@ -26,7 +26,7 @@ torchaudio>=2.0.0
 sentence-transformers>=2.7.0
 
 # ============================
-# LangChain and AI Tools
+# LangChain and AI Toolssss
 # ============================
 langchain-groq>=0.1.0
 langchain-core>=0.1.0
