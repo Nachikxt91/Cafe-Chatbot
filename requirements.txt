@@ -26,12 +26,14 @@ torchaudio>=2.0.0
 sentence-transformers>=2.7.0
 
 # ============================
-# LangChain and AI Toolssss
+# LangChain and AI Tools (Fixed versions for Python 3.12)
 # ============================
-langchain-groq>=0.1.0
-langchain-core>=0.1.0
-langchain-community>=0.0.38
-langchain-huggingface>=0.0.1
+langchain-core==0.2.23
+langchain==0.2.16
+langchain-community==0.2.10
+langchain-groq==0.1.6
+langchain-huggingface==0.0.3
+langsmith>=0.1.85
 groq>=0.4.0
 
 # ============================
